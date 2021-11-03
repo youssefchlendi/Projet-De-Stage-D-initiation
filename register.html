@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/boot/all.css" />
+    <link rel="stylesheet" href="assets/boot/bootstrap.min.css" />
+    <link rel="icon" href="images/minilogo.png">
+    <link rel="stylesheet" href="assets/css/login.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <form method="POST" action="php/register.php" class="box">
+                        <h1>Register</h1>
+                        <p class="text-muted"> Please enter your username , Email and password!</p> 
+                        <input required type="text" name="username" placeholder="Username">
+                        <input required type="email" name="email" placeholder="Email">
+                         <input required type="password" name="password" placeholder="Password">
+                             <a class="forgot text-muted" href="login.html">Alreade got an a account?</a> <br>
+                             <button type="submit" class=" rounded-25 btn btn-success">Register</button>
+                            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
